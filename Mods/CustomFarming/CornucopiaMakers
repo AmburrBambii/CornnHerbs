@@ -4,11 +4,8 @@
    "Description": "Distills flowers, fruits, herbs and vegetables into essential oils.",
    "Tilesheet" : "Makers.png",
    "TileIndex" : 0,
-   "ReadyTileIndex": 0,
-   "WorkAnimationFrames" : 0,
-   "AnimationSpeed" : 0,
    "CategoryName" : "Crafting",
-   "Materials" : [-79,-80,-75],
+   "Materials" : [-75,-79,-80,-81],
    "RequieredStack" : 1,
    "StarterMaterial" : 0,
    "StarterMaterialStack" : 0,
@@ -19,19 +16,39 @@
 	  "usePrefix" : true,
 	  "useColor" : false,
 	  "ProduceID" : 247,
-	  "Quality" : 1,
-	  "Tilesheet" : "Makers.png",
-	  "TileIndex" : 16,
+	  "Tilesheet" : "MakersProduce.png",
+	  "TileIndex" : 0,
 	  "Stack" : 1,
-	  "ProductionTime" : 100
+	  "ProductionTime" : 30
    },
    "SpecialProduce" : 	[
 	  {
-	  "Material" : 88,
-	  "ProduceID" : 247,
-	  "Name": "Essential Oil",
-	  "Quality" : 4,
+	  "Material" : -75,
+	  "TileIndex" : 2,
+	  "Name": "Essence",
 	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : -79,
+	  "TileIndex" : 3,
+	  "Name": "Essence",
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : -80,
+	  "TileIndex" : 4,
+	  "Name": "Essence",
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : -81,
+	  "TileIndex" : 5,
+	  "Name": "Essence",
+	  "usePrefix": true,
+	  "useColor": false
 	  }
-	  ]   
+	  ]
 }
