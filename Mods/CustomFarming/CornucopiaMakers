@@ -4,11 +4,10 @@
    "Description": "Distills flowers, fruits, herbs and vegetables into essential oils.",
    "Tilesheet" : "Makers.png",
    "TileIndex" : 0,
-   "ReadyTileIndex": 0,
    "WorkAnimationFrames" : 0,
    "AnimationSpeed" : 0,
    "CategoryName" : "Crafting",
-   "Materials" : [-79,-80,-75],
+   "Materials" : [-75,-79,-80,-81],
    "RequieredStack" : 1,
    "StarterMaterial" : 0,
    "StarterMaterialStack" : 0,
@@ -18,20 +17,690 @@
       "Description": "A concentrated liquid containing the aroma compounds of a plant.",
 	  "usePrefix" : true,
 	  "useColor" : false,
-	  "ProduceID" : 247,
-	  "Quality" : 1,
-	  "Tilesheet" : "Makers.png",
-	  "TileIndex" : 16,
+	  "ProduceID" : 1052,
+	  "Tilesheet" : "MakersProduce.png",
+	  "TileIndex" : 0,
 	  "Stack" : 1,
-	  "ProductionTime" : 100
+	  "ProductionTime" : 60
    },
    "SpecialProduce" : 	[
 	  {
-	  "Material" : 88,
-	  "ProduceID" : 247,
-	  "Name": "Essential Oil",
-	  "Quality" : 4,
+	  "Material" : 613,
+	  "ProduceID" : REDID,
 	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 628,
+	  "ProduceID" : REDID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 282,
+	  "ProduceID" : REDID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 260,
+	  "ProduceID" : REDID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 252,
+	  "ProduceID" : REDID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 396,
+	  "ProduceID" : REDID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 400,
+	  "ProduceID" : REDID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 919,
+	  "ProduceID" : REDID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 815,
+	  "ProduceID" : REDID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 840,
+	  "ProduceID" : REDID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 900,
+	  "ProduceID" : REDID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 264,
+	  "ProduceID" : REDID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 256,
+	  "ProduceID" : REDID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 420,
+	  "ProduceID" : REDID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 591,
+	  "ProduceID" : REDID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 989,
+	  "ProduceID" : REDID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 283,
+	  "ProduceID" : REDID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 635,
+	  "ProduceID" : ORANGEID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 845,
+	  "ProduceID" : ORANGEID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 276,
+	  "ProduceID" : ORANGEID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 868,
+	  "ProduceID" : ORANGEID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 824,
+	  "ProduceID" : ORANGEID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 873,
+	  "ProduceID" : ORANGEID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 281,
+	  "ProduceID" : ORANGEID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 408,
+	  "ProduceID" : ORANGEID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 412,
+	  "ProduceID" : ORANGEID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 280,
+	  "ProduceID" : ORANGEID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 376,
+	  "ProduceID" : ORANGEID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 634,
+	  "ProduceID" : YELLOWID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 268,
+	  "ProduceID" : YELLOWID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 262,
+	  "ProduceID" : YELLOWID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 20,
+	  "ProduceID" : YELLOWID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 24,
+	  "ProduceID" : YELLOWID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 839,
+	  "ProduceID" : YELLOWID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 915,
+	  "ProduceID" : YELLOWID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 903,
+	  "ProduceID" : YELLOWID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 421,
+	  "ProduceID" : YELLOWID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 593,
+	  "ProduceID" : YELLOWID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 978,
+	  "ProduceID" : YELLOWID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 18,
+	  "ProduceID" : YELLOWID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 22,
+	  "ProduceID" : YELLOWID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 817,
+	  "ProduceID" : YELLOWID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 818,
+	  "ProduceID" : YELLOWID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 822,
+	  "ProduceID" : YELLOWID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 825,
+	  "ProduceID" : YELLOWID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 832,
+	  "ProduceID" : YELLOWID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 270,
+	  "ProduceID" : YELLOWID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 248,
+	  "ProduceID" : YELLOWID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 90,
+	  "ProduceID" : GREENID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 820,
+	  "ProduceID" : GREENID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 852,
+	  "ProduceID" : GREENID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 857,
+	  "ProduceID" : GREENID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 274,
+	  "ProduceID" : GREENID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 278,
+	  "ProduceID" : GREENID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 190,
+	  "ProduceID" : GREENID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 188,
+	  "ProduceID" : GREENID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 304,
+	  "ProduceID" : GREENID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 250,
+	  "ProduceID" : GREENID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 399,
+	  "ProduceID" : GREENID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 813,
+	  "ProduceID" : GREENID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 891,
+	  "ProduceID" : GREENID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 895,
+	  "ProduceID" : GREENID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 812,
+	  "ProduceID" : GREENID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 834,
+	  "ProduceID" : GREENID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 842,
+	  "ProduceID" : GREENID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 913,
+	  "ProduceID" : GREENID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 259,
+	  "ProduceID" : GREENID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 869,
+	  "ProduceID" : GREENID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 917,
+	  "ProduceID" : GREENID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 907,
+	  "ProduceID" : GREENID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 905,
+	  "ProduceID" : GREENID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 921,
+	  "ProduceID" : GREENID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 909,
+	  "ProduceID" : GREENID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 911,
+	  "ProduceID" : GREENID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 454,
+	  "ProduceID" : BLUEID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 258,
+	  "ProduceID" : BLUEID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 414,
+	  "ProduceID" : BLUEID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 893,
+	  "ProduceID" : BLUEID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 597,
+	  "ProduceID" : BLUEID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 864,
+	  "ProduceID" : BLUEID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 416,
+	  "ProduceID" : BLUEID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 398,
+	  "ProduceID" : PURPLEID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 850,
+	  "ProduceID" : PURPLEID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 410,
+	  "ProduceID" : PURPLEID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 272,
+	  "ProduceID" : PURPLEID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 422,
+	  "ProduceID" : PURPLEID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 595,
+	  "ProduceID" : PURPLEID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 418,
+	  "ProduceID" : PURPLEID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 987,
+	  "ProduceID" : PURPLEID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 984,
+	  "ProduceID" : PURPLEID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 981,
+	  "ProduceID" : PURPLEID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 809,
+	  "ProduceID" : PURPLEID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 254,
+	  "ProduceID" : PINKID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 636,
+	  "ProduceID" : PINKID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 637,
+	  "ProduceID" : PINKID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 406,
+	  "ProduceID" : PINKID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 296,
+	  "ProduceID" : PINKID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 844,
+	  "ProduceID" : PINKID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 266,
+	  "ProduceID" : PINKID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 402,
+	  "ProduceID" : PINKID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 897,
+	  "ProduceID" : PINKID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 861,
+	  "ProduceID" : PINKID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 88,
+	  "ProduceID" : BROWNID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 284,
+	  "ProduceID" : BROWNID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 192,
+	  "ProduceID" : BROWNID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 257,
+	  "ProduceID" : BROWNID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 16,
+	  "ProduceID" : BROWNID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 404,
+	  "ProduceID" : BROWNID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 78,
+	  "ProduceID" : BROWNID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 808,
+	  "ProduceID" : BROWNID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 830,
+	  "ProduceID" : BROWNID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 870,
+	  "ProduceID" : BROWNID,
+	  "usePrefix": true,
+	  "useColor": false
+	  },
+	  {
+	  "Material" : 430,
+	  "ProduceID" : BROWNID,
+	  "usePrefix": true,
+	  "useColor": false
 	  }
-	  ]   
+	  ]
 }
